@@ -29,6 +29,7 @@ function calculate(num1, num2, operator) {
     }
 }
 
+console.log("\nCalculator :");
 console.log(calculate(10, 5, "+"));
 console.log(calculate(10, 5, "-"));
 console.log(calculate(10, 5, "*"));
@@ -64,6 +65,7 @@ function findTax(salary) {
     return salary * taxRate;
 }
 
+console.log("\nFind Tax using switch");
 console.log(findTax(400000));   // 0
 console.log(findTax(800000));   // 80000
 console.log(findTax(1200000));  // 240000
@@ -88,5 +90,6 @@ function digitProductSum(n1, n2) {
     return sum;
 }
 
+console.log("4. Sum of products of corresponding digits");
 console.log(digitProductSum(6, 34));     // 24
 console.log(digitProductSum(123, 456));  // 32
